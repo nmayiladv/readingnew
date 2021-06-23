@@ -1,0 +1,120 @@
+
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+
+
+    .bg-1 {
+      background-color: #12151f;
+		}
+
+    .bg-2 {
+      background-color: red;
+    }
+
+    .bg-3 {
+      background-color: #05f4b7;
+    }
+
+    h1{
+    	color: black;
+    }
+
+    h3 {
+ 	 color: #05f4b7;
+   font-size: 75px;
+   font-weight: bold;
+	}
+
+ .classp {
+ 	 color: black;
+ 	 font-size: 32px;
+	}
+
+  #words {
+    color: black;
+    font-size: 90px;
+    font-weight: bold;
+
+  }
+
+  .widthmx {
+    min-height: 100px;
+  }
+
+  .wordslist {
+    justify-content: first baseline;
+    text-shadow: red;
+     }
+
+	 h5 {
+ 	 color: #05f4b7;
+	}
+.container1 {
+  width: 100%;
+  height: 100%;
+  border:  0px solid black;
+  display: flex;
+  padding: 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px;
+  justify-content: center ; 
+  align-content:flex-start; 
+}
+
+.box:nth-of-type(odd) {
+background-color: teal;
+color: white;
+}
+
+.box:nth-child(1) {
+  align-self: stretch;
+}
+
+.box:nth-child(4) {
+  align-self:flex-start;
+}
+
+.box:nth-child(2) {
+  align-self: flex-start;
+}
+
+.box:nth-child(3) {
+  align-self: center;
+}
+
+.box:nth-child(5) {
+  align-self: flex-end;;
+}
+
+.box {
+  padding:  30px;
+  border: 5px solid indianred;
+  margin:  10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.box1 {
+  padding:  30px;
+  border: 5px solid indianred;
+  margin:  10px;
+  font-size: 25px;
+  font-weight: bold;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.box1:nth-child(2) {
+  flex-grow: 5;
+}
+
+.box1:nth-child(1) {
+  flex-shrink: 6;
+}
+
+.btn1 {
+  font-size: 35px;
+}
